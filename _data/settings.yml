@@ -1,18 +1,17 @@
 # Change 'comments' to true for Disqus comments
 disqus:
-  comments: false
+  comments: True
   disqus_shortname: 'millennial-3'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Interesting Facts', folder: 'pages', file: 'facts.html'}
-- {name: 'Learning Resources', folder: 'pages', file: 'resources.html'}
-- {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
-- {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
-- {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+- {name: '有趣的事实', folder: 'pages', file: 'facts.html'}
+- {name: '学习资源', folder: 'pages', file: 'resources.html'}
+- {name: '相似的帖子', folder: 'pages', file: 'sample-posts.html'}
+- {name: '文件', folder: 'pages', file: 'documentation.html'}
+- {name: '关于', folder: 'pages', file: 'about.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
@@ -25,11 +24,11 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+  next_page: '上一页'
+  previous_page: '下一页'
 
-sharing_button_prompt: 'Feel free to share!'
+sharing_button_prompt: '请随意分享!'
 
-related_posts: 'You may also enjoy...'
+related_posts: '你可能对下面的内容也感兴趣...'
 
-post_date_prefix: 'Written on'
+post_date_prefix: '写在'

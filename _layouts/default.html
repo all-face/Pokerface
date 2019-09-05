@@ -1,19 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
+<html>
 
-　　<html>
+{% include head.html %}
 
-　　<head>
+<body>
 
-　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<div class="container">
+  {% include header.html %}
+  <div class="posts-wrapper">
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</div>
 
-　　　　<title>{{ page.title }}</title>
-
-　　</head>
-
-　　<body>
-
-　　　　{{ content }}
-
-　　</body>
-
-　　</html>
+</body>
+</html>

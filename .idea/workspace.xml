@@ -1,7 +1,306 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe46355c-dff9-4e92-b30e-b8cfbd816efc" name="Default Changelist" comment="" />
+    <list default="true" id="fe46355c-dff9-4e92-b30e-b8cfbd816efc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_frontend/actions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_frontend/components.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_frontend/constants.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_frontend/containers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_frontend/reducers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_frontend/store.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_includes/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_layouts/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_sass/content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_sass/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_sass/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_sass/normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_sass/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/_sass/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/architecture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/assets/atom-one-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/assets/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/configs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/development.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/frontend.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/docs/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/jekyll-admin.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/apiable.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/data_file.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/directory.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/file_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/page_without_a_file.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/path_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/server.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/server/collection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/server/configuration.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/server/data.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/server/draft.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/server/page.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/server/static_file.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/static_server.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/urlable.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll-admin/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/lib/jekyll/commands/serve.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/bootstrap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/branding" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/cibuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/cibuild-node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/cibuild-ruby" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/docs-server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/fmt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/server-frontend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/script/test-server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/data_file.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/members.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/members.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/movies/actors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/movies/genres/fiction.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/plain_text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_data/template-config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_drafts/draft-dir/WIP/yet-another-draft-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_drafts/draft-dir/another-draft-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_drafts/draft-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_drafts/random/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_posts/2016-01-01-test-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_posts/2016-02-01-test-post-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_posts/2016-03-01-test-post-3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_posts/more posts/2016-04-01-post-within-subdirectory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_posts/more posts/some more posts/2016-05-01-a-test-post-within-subdirectory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_posts/more posts/some more posts/2016-05-02-another-test-post-within-subdirectory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/_puppies/rover.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/assets/app.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/assets/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/icon-github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/jekyll-logo-light-solid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/page-dir/page1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/page-dir/test/page2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/fixtures/site/static-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/apiable_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/data_file_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/file_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/integration_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/path_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/server/collection_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/server/configuration_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/server/data_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/server/draft_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/server/page_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/server/static_file_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/server_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/static_server_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll-admin/urlable_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/jekyll_admin_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/spec/spec_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/lato-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/fonts/lato-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/images/logo-black-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/Breadcrumbs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/Dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/Editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/Errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/FilePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/MarkdownEditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/Splitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/Checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/InputPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/InputSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/InputTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/tests/checkbox.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/tests/inputpath.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/tests/inputsearch.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/form/tests/inputtitle.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/MetaArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/MetaArrayItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/MetaButtons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/MetaField.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/MetaObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/MetaObjectItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/MetaSimple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/tests/metaarray.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/tests/metaarrayitem.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/tests/metabuttons.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/tests/metafield.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/tests/metaobject.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/tests/metaobjectitem.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/metadata/tests/metasimple.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/__snapshots__/breadcrumbs.spec.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/__snapshots__/markdowneditor.spec.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/breadcrumbs.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/button.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/editor.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/errors.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/filepreview.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/fixtures/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/components/tests/markdowneditor.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/constants/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/constants/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/constants/keyboardShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/MetaFields.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/Notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/Sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/__snapshots__/header.spec.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/__snapshots__/notifications.spec.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/__snapshots__/sidebar.spec.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/fixtures/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/header.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/metafields.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/notifications.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/tests/sidebar.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/Configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/DataFileEdit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/DataFileNew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/DataFiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/DocumentEdit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/DocumentNew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/Documents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/DraftEdit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/DraftNew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/Drafts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/NotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/PageEdit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/PageNew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/Pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/StaticFiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/configuration.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/datafileedit.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/datafilenew.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/datafiles.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/documentedit.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/documentnew.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/documents.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/drafts.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/fixtures/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/pageedit.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/pagenew.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/pages.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/containers/views/tests/staticfiles.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/collections.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/config.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/datafiles.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/drafts.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/fixtures/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/metadata.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/notifications.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/pages.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/staticfiles.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/action_tests/utils.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/collections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/datafiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/drafts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/metadata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/collections.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/config.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/datafiles.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/drafts.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/fixtures/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/metadata.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/notifications.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/pages.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/staticfiles.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/reducer_tests/utils.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/staticfiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/ducks/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/datagui.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/editor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/metafields.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/staticfiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/codemirror.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/styles/vendors/font-awesome/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/translations/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/translations/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/translations/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/translations/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/translations/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/translations/ptBr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/translations/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/apiErrors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/metadata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/tests/apiErrors.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/tests/fixtures/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/tests/helpers.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/tests/metadata.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/tests/validation.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/src/utils/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/tools/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/tools/buildHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/tools/chalkConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/tools/fileMock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/tools/srcServer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/tools/startMessage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/tools/testCi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/webpack.config.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/webpack.config.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/yarn.lock" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,52 +310,21 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/settings.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="242">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+        <entry file="file://$PROJECT_DIR$/pages/facts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="176">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/misc.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,11 +336,55 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1063" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="97" lean-forward="true" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+            <state relative-caret-position="374">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/about.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,6 +425,31 @@
               <item name="Pokerface" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pokerface" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Pokerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokerface" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokerface" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokerface" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokerface" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokerface" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -149,19 +486,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567672876728</updated>
-      <workItem from="1567672878177" duration="3443000" />
+      <workItem from="1567672878177" duration="4461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3443000" />
+    <option name="totallyTimeSpent" value="4461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1867" y="-8" width="1641" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20888054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15509693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -204,35 +541,11 @@
     <entry file="file://$PROJECT_DIR$/assets/img/cuba-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/misc.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/settings.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-04-04-about-the-author.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -252,6 +565,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/resources.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -259,10 +597,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1063" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/facts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-10-getting-started.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="97" lean-forward="true" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+        <state relative-caret-position="374">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>

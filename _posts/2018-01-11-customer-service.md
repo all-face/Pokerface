@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
+title:  "北京的家乐福"
+author: zhaodp
+categories: [ 生活 ]
 tags: [red, yellow]
-image: assets/images/11.jpg
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+image: assets/images/20190908jidan.jpeg
+description: "华严里的家乐福，价格飞涨的猪肉，不排队买不到的散装鸡蛋"
 featured: true
 hidden: true
 rating: 4.5
@@ -13,19 +13,8 @@ rating: 4.5
 
 Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
 
-#### How to use?
+#### 周末的日常
 
-It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
+比昨天早去了15分钟，有幸见到了散装鸡蛋的样子，可惜队伍的长度已经超过了剩下的鸡蛋的供应能力，猪肉依然没有降价的趋势，等待新肉分割下来的人们。
+![avatar](assets/images/20190908zhurou.jpeg)
 
-```html
----
-layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
-tags: [red, yellow]
-image: assets/images/11.jpg
-description: "My review of Inception movie. Actors, directing and more."
-rating: 4.5
----
-```

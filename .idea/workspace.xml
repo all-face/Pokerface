@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe46355c-dff9-4e92-b30e-b8cfbd816efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/share.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/share.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="466">
+              <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -81,6 +80,7 @@
       <find>Jekyll template, Medium styled, free for bloggers.</find>
       <find>Featured</find>
       <find>twitter</find>
+      <find>bdsharebuttonbox</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,8 +98,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1806" />
-    <option name="y" value="453" />
+    <option name="x" value="-1835" />
+    <option name="y" value="140" />
     <option name="width" value="1706" />
     <option name="height" value="969" />
   </component>
@@ -184,15 +184,15 @@
       <option name="presentableId" value="Default" />
       <updated>1567672876728</updated>
       <workItem from="1567672878177" duration="8671000" />
-      <workItem from="1567993327104" duration="2131000" />
+      <workItem from="1567993327104" duration="2446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10802000" />
+    <option name="totallyTimeSpent" value="11117000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1806" y="453" width="1706" height="969" extended-state="0" />
+    <frame x="-1835" y="140" width="1706" height="969" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.082932696" />
@@ -329,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/share.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="466">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
         </state>
       </provider>
     </entry>

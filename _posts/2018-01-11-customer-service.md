@@ -3,7 +3,7 @@ layout: post
 title:  "北京的家乐福"
 author: zhaodp
 categories: [ 生活 ]
-tags: [red, yellow]
+tags: [鸡蛋, 猪肉]
 image: assets/images/20190908jidan.jpeg
 description: "华严里的家乐福，价格飞涨的猪肉，不排队买不到的散装鸡蛋"
 featured: true
@@ -11,10 +11,10 @@ hidden: true
 rating: 4.0
 ---
 
-Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
+一个混吃等死的周末
 
 #### 周末的日常
 
 比昨天早去了15分钟，有幸见到了散装鸡蛋的样子，可惜队伍的长度已经超过了剩下的鸡蛋的供应能力，猪肉依然没有降价的趋势，等待新肉分割下来的人们。
-![walking]({{ site.baseurl }}/assets/images/20190908zhurou.jpeg)
+![walking]({{ site.baseurl }}/assets/images/20190908zhurou.jpeg){:height="400px" width="800px"}
 

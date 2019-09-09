@@ -1,40 +1,71 @@
-<div class="social-share"></div>
-
+<style>
+    /*隐藏底端的ghost*/
+    body > div.site-wrapper > footer > div > nav > a:nth-child(4){
+        display:none;
+    }
+    /*分享按钮的样式*/
+    .social-share{
+        position:fixed;
+        bottom:100px;
+        right:5px;
+        width:32px;
+        z-index:1000;
+    }
+    .social-share .icon-wechat .wechat-qrcode{
+        top: -73px !important;
+    	left: -210px !important;
+    }
+    .social-share .icon-wechat .wechat-qrcode:after{
+        content: '';
+        position: absolute;
+        left: 50% !important;
+        margin-left: 99px !important;
+        bottom: 50% !important;
+        width: 0;
+        height: 0;
+        border-width: 6px 6px 6px 8px !important;
+        border-style: solid;
+        border-color: transparent transparent transparent #fff !important;
+    }
+</style>
+<div class="social-share"
+     data-disabled="google,twitter,facebook,linkedin,diandian"
+>分享</div>
 <!--  css & js -->
-<link rel="stylesheet" href="share.js/dist/css/share.min.css">
-<script src="share.js/dist/js/social-share.min.js"></script>
-<div class="social-share" data-initialized="true">
-    <p>
-        Share
-    </p>
-    <div class="share-component" data-disabled="google,twitter,facebook" data-description="Share.js - 一键分享到微博，QQ空间，腾讯微博，人人，豆瓣"></div>
-    <ul>
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                <i class="social-share-icon icon-weibo"></i>
-            </a>
-        </li>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
 
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
-                <i class="social-share-icon icon-qq"></i>
-            </a>
-        </li>
+<!--<div class="share sticky-top sticky-top-offset">-->
+    <!--<p>-->
+        <!--Share-->
+    <!--</p>-->
+    <!--<ul>-->
+        <!--<li class="ml-1 mr-1">-->
+            <!--<a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">-->
+                <!--<i class="fab fa-twitter"></i>-->
+            <!--</a>-->
+        <!--</li>-->
 
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
-                <i class="social-share-icon icon-qzone"></i>
-            </a>
-        </li>
+        <!--<li class="ml-1 mr-1">-->
+            <!--<a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">-->
+                <!--<i class="fab fa-facebook-f"></i>-->
+            <!--</a>-->
+        <!--</li>-->
 
-    </ul>
-    {% if page.comments != false %}
-    <div class="sep">
-    </div>
-    <ul>
-        <li>
-        <a class="small smoothscroll" href="#disqus_thread"></a>
-        </li>
-    </ul>
-    {% endif %}
-</div>
+        <!--<li class="ml-1 mr-1">-->
+            <!--<a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">-->
+                <!--<i class="fab fa-linkedin-in"></i>-->
+            <!--</a>-->
+        <!--</li>-->
+
+    <!--</ul>-->
+    <!--{% if page.comments != false %}-->
+    <!--<div class="sep">-->
+    <!--</div>-->
+    <!--<ul>-->
+        <!--<li>-->
+        <!--<a class="small smoothscroll" href="#disqus_thread"></a>-->
+        <!--</li>-->
+    <!--</ul>-->
+    <!--{% endif %}-->
+<!--</div>-->

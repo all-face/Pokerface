@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: My own handsome back
 permalink: /about
 comments: true
 ---
@@ -11,6 +11,48 @@ comments: true
 <p>一个95后北漂屌丝程序员，天秤座，不高不矮不胖不瘦，欢迎留言骚扰</p>
 
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/zdp.jpeg"/></p>
+
+<div class="col-md-4">
+
+<div class="sticky-top sticky-top-80">
+我如果爱你——
+绝不象攀援的凌霄花，
+借你的高枝炫耀自己；
+我如果爱你——
+绝不学痴情的鸟儿，
+为绿荫重复单调的歌曲；
+也不止象泉源，
+常年送来清凉的慰藉；
+也不止象险峰，
+增加你的高度，衬托你的威仪。
+甚至日光。
+甚至春雨。
+不，这些都还不够！
+我必须是你近旁的一株木棉，
+作为树的形象和你站在一起。
+根，紧握在地下，
+叶，相触在云里。
+每一阵风过，
+我们都互相致意，
+但没有人，
+听懂我们的言语。
+你有你的铜枝铁干，
+象刀，象剑，
+也象戟；
+我有我红硕的花朵，
+象沉重的叹息，
+又象英勇的火炬。
+我们分担寒潮、风雷、霹雳；
+我们共享雾霭、流岚、虹霓。
+仿佛永远分离，
+却又终身相依。
+这才是伟大的爱情，
+坚贞就在这里：
+爱——
+不仅爱你伟岸的身躯，
+也爱你坚持的位置，足下的土地。
+
+</div>
 
 </div>
 </div>
